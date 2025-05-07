@@ -62,7 +62,7 @@ m.add_gdf(
         "fillOpacity": 0
     },
     info_mode="on_click",
-    show=False  #Capa apagada
+    show=True  #Capa apagada
 )
 
 # Capa 2: Coropletas
@@ -82,7 +82,8 @@ m.add_gdf(
     gdf=colonias_popup,
     layer_name="Colonias completas",
     style_kwds={"color": "blue", "weight": 1, "fillOpacity": 0},
-    info_mode="on_click"
+    info_mode="on_click",
+    show=False
 )
 
 # Mostrar el mapa

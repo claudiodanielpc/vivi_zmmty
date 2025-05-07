@@ -3,6 +3,7 @@ import leafmap.foliumap as leafmap
 import pandas as pd
 import geopandas as gpd
 
+
 # Cargar geometrías
 zmmty = gpd.read_file("https://raw.githubusercontent.com/claudiodanielpc/vivi_zmmty/refs/heads/main/zmmty.geojson")
 

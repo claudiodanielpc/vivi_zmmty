@@ -62,7 +62,7 @@ m.add_gdf(
         "fillOpacity": 0
     },
     info_mode="on_click",
-    show=True  #Capa apagada
+    show=False  #Capa apagada
 )
 
 # Capa 2: Coropletas
